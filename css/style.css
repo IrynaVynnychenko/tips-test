@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-BoldItalic.eot");
+  src: local("Gotham Pro Bold Italic"), local("GothamPro-BoldItalic"),
+    url("../fonts/GothamPro-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-BoldItalic.woff") format("woff"),
+    url("../fonts/GothamPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-Italic.eot");
+  src: local("Gotham Pro Italic"), local("GothamPro-Italic"),
+    url("../fonts/GothamPro-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-Italic.woff") format("woff"),
+    url("../fonts/GothamPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-Medium.eot");
+  src: local("Gotham Pro Medium"), local("GothamPro-Medium"),
+    url("../fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-Medium.woff") format("woff"),
+    url("../fonts/GothamPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-BlackItalic.eot");
+  src: local("Gotham Pro Black Italic"), local("GothamPro-BlackItalic"),
+    url("../fonts/GothamPro-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-BlackItalic.woff") format("woff"),
+    url("../fonts/GothamPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-Bold.eot");
+  src: local("Gotham Pro Bold"), local("GothamPro-Bold"),
+    url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-Bold.woff") format("woff"),
+    url("../fonts/GothamPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Narrow";
+  src: url("../fonts/GothamProNarrow-Bold.eot");
+  src: local("Gotham Pro Narrow Bold"), local("GothamProNarrow-Bold"),
+    url("../fonts/GothamProNarrow-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamProNarrow-Bold.woff") format("woff"),
+    url("../fonts/GothamProNarrow-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Narrow";
+  src: url("../fonts/GothamProNarrow-Medium.eot");
+  src: local("Gotham Pro Narrow Medium"), local("GothamProNarrow-Medium"),
+    url("../fonts/GothamProNarrow-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GothamProNarrow-Medium.woff") format("woff"),
+    url("../fonts/GothamProNarrow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-LightItalic.eot");
+  src: local("Gotham Pro Light Italic"), local("GothamPro-LightItalic"),
+    url("../fonts/GothamPro-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-LightItalic.woff") format("woff"),
+    url("../fonts/GothamPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-Light.eot");
+  src: local("Gotham Pro Light"), local("GothamPro-Light"),
+    url("../fonts/GothamPro-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-Light.woff") format("woff"),
+    url("../fonts/GothamPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-Black.eot");
+  src: local("Gotham Pro Black"), local("GothamPro-Black"),
+    url("../fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro-Black.woff") format("woff"),
+    url("../fonts/GothamPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro.eot");
+  src: local("Gotham Pro"), local("GothamPro"),
+    url("../fonts/GothamPro.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothamPro.woff") format("woff"),
+    url("../fonts/GothamPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro-MediumItalic.eot");
+  src: local("Gotham Pro Medium Italic"), local("GothamPro-MediumItalic"),
+    url("../fonts/GothamPro-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GothamPro-MediumItalic.woff") format("woff"),
+    url("../fonts/GothamPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.2;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: none;
+  font-family: "Gotham Pro";
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  border-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+div,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section.shops {
+  padding: 40px 0;
+}
+
+.b-page-title {
+  color: #4e4591;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.b-page-title--big {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+.b-page-title--big span {
+  font-weight: 700;
+}
+
+.shops-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+}
+a,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+.btn {
+  position: relative;
+  background: transparent;
+  font-size: 14px;
+  outline: none !important;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+.btn--large {
+  height: 48px;
+  padding: 0 24px;
+  font-size: 1rem;
+}
+
+.btn--flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+.btn--m-auto {
+  margin: 0 auto;
+}
+.btn--green,
+.btn--green-small {
+  color: #fff;
+  background: #45c97a;
+}
+.btn--wide {
+  max-width: 450px;
+  width: 100%;
+}
+.btn--fw-500 {
+  font-weight: 500;
+}
+.btn--mt-32 {
+  margin-top: 32px;
+}
+.shops-list__teaser {
+  margin: 12px;
+  flex-basis: 216px;
+  background-color: #fff;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.shops-list__item {
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(137, 137, 133, 0.18);
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+}
+
+.shops-list__teaser:hover .shops-list__item {
+  box-shadow: 0 0 4px 0 rgba(58, 48, 135, 0.75);
+}
+.shops-list__favourite {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 30px;
+  color: #d6d4d4;
+  cursor: pointer;
+}
+.shops-list__favourite:hover {
+  color: #f44336;
+}
+.shops-list-inner {
+  display: flex;
+  flex-direction: column;
+}
+.shops-list-inner__top {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.shops-list-inner__top img {
+  display: block;
+  max-width: 130px;
+  max-height: 55px;
+}
+.shops-list-inner__middle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+}
+.shops-list-inner__middle::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 1px solid #d6d4d4;
+}
+.shops-list-title {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #a0a0a0;
+  text-transform: lowercase;
+}
+.shops-list-cash__row {
+  color: #4e4591;
+  font-weight: bold;
+  line-height: 1;
+}
+.shops-list-cash__row span.shops-list-cash-label {
+  font-size: 16px;
+}
+.shops-list-cash__row span.shops-list-cash-value {
+  font-size: 26px;
+  margin: 0 5px;
+}
+.shops-list-inner__middle::after {
+  position: absolute;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 1px solid #d6d4d4;
+}
+.shops-list-inner__bottom {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shops-list-inner__bottom .btn--shops-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(136deg, #4e4591 0%, #734590 100%);
+  font-size: 12px;
+  height: 30px;
+  position: relative;
+  width: 30px;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+}
+.shops-list-inner__bottom .btn--shops-list span {
+  white-space: nowrap;
+  display: none;
+  transition: all 0.25s ease;
+}
+.shops-list__teaser:hover
+  .shops-list__item
+  .shops-list-inner__bottom
+  .btn--shops-list {
+  width: 150px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.shops-list__teaser:hover
+  .shops-list__item
+  .shops-list-inner__bottom
+  .btn--shops-list
+  span {
+  display: block;
+}
+.shops-list__teaser:hover
+  .shops-list__item
+  .shops-list-inner__bottom
+  .btn--shops-list
+  i {
+  display: none;
+}
+
+@media (max-width: 1216px) {
+  .shops-list {
+    justify-content: center;
+  }
+}
